@@ -1,0 +1,25 @@
+﻿
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+
+</head>
+<body style="background-color:darkgray">
+    @{
+        ViewBag.Message = "Welcome To Maersk Line";
+    }
+
+    <div class="jumbotron" ;style="text-align:center">
+        <h2> @ViewBag.Message</h2>
+        <p class="lead">Maersk Line is the global container division and the largest operating unit of the A.P. Moller.</p>
+    </div>
+
+        <div style="width:1000px; margin:0 auto;text-align:center">
+            <img alt="MaerskLine" src="@Url.Content("http://maritimedenmark.dk/nonsec/NPIX/2013/5/Maersk-Line-logo-610x200.jpg")">
+        </div>
+
+        <p>
+            A.P. Moller - Maersk is an integrated transport and logistics company with multiple brands and is a global leader in container shipping and ports. Including a stand-alone Energy division, the company employs roughly 88,000 employees across operations in 130 countries.
+        </p>
+
+</body>
